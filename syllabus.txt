@@ -1,0 +1,57 @@
+CS 101: Introduction to Python Programming
+Spring 2025
+
+Course Description:
+This course introduces fundamental programming concepts using Python. Students will learn software development through hands-on coding, projects, and collaborative work.
+
+Instructor: Dr. Sarah Chen
+Office: Tech Building 3.415
+Office Hours: Mon/Wed 2-4pm, or by appointment
+Email: schen@university.edu
+
+Teaching Assistants:
+- Alex Kumar (Head TA): akumar@university.edu
+- Maria Garcia: mgarcia@university.edu
+- James Wilson: jwilson@university.edu
+
+Course Schedule:
+Week 1-2: Python Basics
+- Variables, data types, and operators
+- Control structures
+- Functions and modules
+
+Week 3-4: Data Structures
+- Lists, tuples, and dictionaries
+- String manipulation
+- File I/O
+
+Week 5-6: Object-Oriented Programming
+- Classes and objects
+- Inheritance and polymorphism
+- Error handling
+
+Week 7-8: Advanced Topics
+- Regular expressions
+- Database connectivity
+- GUI programming with tkinter
+
+Week 9-10: Web Development
+- Flask framework basics
+- RESTful APIs
+- Database integration
+
+Week 11-12: Final Project
+- Team formation
+- Project proposals
+- Implementation and testing
+
+Grading:
+- Homework Assignments (40%)
+- Midterm Exam (25%)
+- Final Project (25%)
+- Class Participation (10%)
+
+Required Materials:
+- "Python Programming: An Introduction to Computer Science" 4th Edition
+- Laptop with Python 3.10+ installed
+- PyCharm Professional (free student license)

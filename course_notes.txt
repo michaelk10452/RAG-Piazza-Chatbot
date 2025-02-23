@@ -1,0 +1,71 @@
+Lecture 5: Object-Oriented Programming Deep Dive
+
+Key Concepts:
+
+1. Encapsulation
+- Private vs public attributes
+- Name mangling with double underscores
+- Property decorators for getter/setter methods
+
+Example:
+```python
+class BankAccount:
+    def __init__(self):
+        self.__balance = 0  # Private attribute
+        
+    @property
+    def balance(self):
+        return self.__balance
+        
+    @balance.setter
+    def balance(self, value):
+        if value >= 0:
+            self.__balance = value
+        else:
+            raise ValueError("Balance cannot be negative")
+```
+
+2. Inheritance
+- Single and multiple inheritance
+- Method resolution order (MRO)
+- Super() function usage
+
+Example:
+```python
+class Animal:
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Robot:
+    def charge(self):
+        pass
+
+class RobotDog(Dog, Robot):
+    pass
+```
+
+3. Polymorphism
+- Method overriding
+- Duck typing
+- Abstract base classes
+
+Practice Problems:
+
+1. Create a Shape class hierarchy with methods for area and perimeter
+2. Implement a simple banking system with different account types
+3. Design a playlist system with different media types
+
+Common Pitfalls:
+- Forgetting to call super().__init__()
+- Circular inheritance
+- Multiple inheritance diamond problem
+
+Best Practices:
+1. Follow the Single Responsibility Principle
+2. Use composition over inheritance when possible
+3. Keep inheritance hierarchies shallow
+4. Document class interfaces clearly
