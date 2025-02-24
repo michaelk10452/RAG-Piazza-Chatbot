@@ -142,19 +142,6 @@ def main():
         st.markdown("---")
         st.write("Course Materials:")
         st.write("- Syllabus")
-        st.write("- Piazza posts")
-        st.write("- Course notes")
-        st.markdown("---")
-        st.write("Feedback:")
-        st.write("If you find this assistant helpful, please let us know!")
-        st.markdown("---")
-        st.write("Developed by [Michael Kurdahi]")
-        st.write("Version 1.0")
-        st.write("Last updated: February 2025")
-        st.markdown("---")
-
-        # Add syllabus download section
-        st.markdown("---")
         try:
             with open('syllabus.txt', 'r', encoding='utf-8') as file:
                 syllabus_content = file.read()
@@ -167,9 +154,7 @@ def main():
             )
         except FileNotFoundError:
             st.error("Syllabus file not found")
-            
-        # Add Piazza posts section
-        st.markdown("---")
+        st.write("- Piazza posts")
         if st.button("📋 See Piazza Posts"):
             try:
                 with open('piazza.txt', 'r', encoding='utf-8') as file:
@@ -178,6 +163,19 @@ def main():
                 st.text_area("Recent Posts", value=piazza_content, height=300, disabled=True)
             except FileNotFoundError:
                 st.error("Piazza posts file not found")
+        st.write("- Course notes")
+        st.markdown("---")
+        st.write("Feedback:")
+        st.write("If you find this assistant helpful, please let us know!")
+        st.markdown("---")
+        st.write("Developed by Michael Kurdahi")
+        st.write("Last updated: February 2025")
+
+        # Add syllabus download section
+        st.markdown("---")
+            
+        # Add Piazza posts section
+        st.markdown("---")
     
     # Chat interface
     for message in st.session_state.messages:
