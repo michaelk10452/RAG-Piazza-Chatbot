@@ -22,15 +22,19 @@ RAG (Retrieval-Augmented Generation) is particularly valuable for educational ap
 - **Reduced Bias**: Minimizes inherent biases in foundation models by prioritizing retrieving actual course content over generating responses from pre-trained knowledge.
 
 ## 📖 Example Queries & Responses
-#### 📌 **Topic-Specific Questions**
-> *"What are the key topics covered in the CS 101 syllabus?"*
+#### 📌 **Course-Specific Retrieval Questions**
+> *"What topics are covered on the midterm exam?"*
+<img width="1500" alt="Screenshot 2025-02-24 at 3 36 30 PM" src="https://github.com/user-attachments/assets/2f869cf9-f839-49c5-aa59-74a686b681d7" />
 
-![Topic-Specific Question](https://user-images.githubusercontent.com/example/topic-question.png)
+#### 📌 **Assignment-Specific Questions**
+> *"How do I resolve a Git merge conflict?"*
+<img width="1501" alt="Screenshot 2025-02-24 at 3 37 49 PM" src="https://github.com/user-attachments/assets/1fc5bfb2-4470-4048-b80d-e21f4ee4f37f" />
 
-#### 📌 **Course-Specific Questions**
-> *"Explain the difference between lists and tuples in Python with examples."*
+#### 📌 **Course Policy & Exam Guidelines Questions**
+> *"Can I bring a cheat sheet to the final exam?"*
+<img width="1500" alt="Screenshot 2025-02-24 at 3 39 01 PM" src="https://github.com/user-attachments/assets/ff3f8714-d523-4516-845b-9df94d1a37e2" />
 
-![Course-Specific Question](https://user-images.githubusercontent.com/example/course-question.png)
+
 
 Built by Michael Kurdahi
 
