@@ -1,0 +1,7 @@
+streamlit==1.42.2
+openai
+faiss-cpu
+numpy
+python-dotenv
+pandas
+requests
