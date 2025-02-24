@@ -32,8 +32,6 @@ RAG (Retrieval-Augmented Generation) is particularly valuable for educational ap
 
 ![Course-Specific Question](https://user-images.githubusercontent.com/example/course-question.png)
 
-## 🌐 Key Takeaways for Recruiters
-- **Demonstrates expertise** in **AI-driven search & retrieval systems**.
-- **Proves ability** to **develop, optimize, and deploy real-world AI applications**.
-- **Showcases strong problem-solving skills** in machine learning, software engineering, and UI/UX design.
-- **Highlights ability to build scalable, cloud-based AI solutions** that solve real-world challenges.
+Built by Michael Kurdahi
+
+This project is open for contributions! If you have ideas for improvements or want to adapt it for other courses, please feel free to fork the repository and submit a pull request. Together, we can make learning more accessible and interactive for students everywhere.
