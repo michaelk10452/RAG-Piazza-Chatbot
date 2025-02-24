@@ -142,6 +142,7 @@ def main():
         st.markdown("---")
         st.write("Course Materials:")
         st.write("- Syllabus")
+        # Add syllabus download section
         try:
             with open('syllabus.txt', 'r', encoding='utf-8') as file:
                 syllabus_content = file.read()
@@ -155,6 +156,7 @@ def main():
         except FileNotFoundError:
             st.error("Syllabus file not found")
         st.write("- Piazza posts")
+        # Add Piazza posts section
         if st.button("📋 See Piazza Posts"):
             try:
                 with open('piazza.txt', 'r', encoding='utf-8') as file:
@@ -170,12 +172,6 @@ def main():
         st.markdown("---")
         st.write("Developed by Michael Kurdahi")
         st.write("Last updated: February 2025")
-
-        # Add syllabus download section
-        st.markdown("---")
-            
-        # Add Piazza posts section
-        st.markdown("---")
     
     # Chat interface
     for message in st.session_state.messages:
