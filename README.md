@@ -9,6 +9,8 @@ This system was originally built for **CS 101** and comes with a preloaded datas
 - **Optimized for Speed**: Precomputed FAISS embeddings ensure near-instantaneous retrieval of relevant course materials.
 - **Scalability & Efficiency**: Designed with **vector databases (FAISS)** to handle large-scale information retrieval tasks with minimal latency.
 - **Context-Aware Responses**: Unlike traditional chatbots, it combines document retrieval with GPT-generated responses, ensuring answers are grounded in **relevant course materials**.
+- **Source Transparency**: Displays the retrieved context alongside answers, allowing users to verify information accuracy and explore source materials directly.
+- **Hallucination Prevention**: By grounding responses in actual course materials, the system **dramatically reduces** fabricated or incorrect information that can plague standard LLM implementations.
 - **User-Centric Interface**: Built with **Streamlit**, offering a sleek, easy-to-use chat interface for students and educators.
 - **Secure API Key Handling**: Uses `.env` files and Streamlit Secrets to **protect sensitive credentials** and ensure safe API usage.
 
