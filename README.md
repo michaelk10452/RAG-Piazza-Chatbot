@@ -1,5 +1,7 @@
 # 🎓 RAG-Piazza Chatbot
 
+Live site: https://piazzarag.streamlit.app/
+
 ## 📌 System Overview
 The **RAG-Piazza Chatbot** is a **Retrieval-Augmented Generation (RAG)**-based course assistant designed to enhance student learning through **efficient and intelligent information retrieval**. Built using **Streamlit, FAISS, and OpenAI GPT**, the chatbot enables students to interact with their course material, syllabus, and Piazza discussions dynamically, retrieving the most relevant information before generating accurate responses.
 
